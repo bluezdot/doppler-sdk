@@ -1,6 +1,7 @@
 *.log
 .DS_Store
 .turbo
+.idea
 node_modules
 dist
 yarn.lock
