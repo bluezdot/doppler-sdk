@@ -43,7 +43,7 @@ services:
       - doppler-indexer-database
     environment:
       DATABASE_SCHEMA: v1
-      DB_URL: postgresql://postgres:postgres@doppler-indexer-database:5432/base-sepolia
+      DB_URL: postgresql://postgres:postgres@doppler-indexer-database:5432/default
       IPFS_URL: https://ipfs.w3s.link/ipfs
     restart: always
     ports:
@@ -55,7 +55,7 @@ services:
       - doppler-indexer-database
     environment:
       DATABASE_SCHEMA: v1
-      DB_URL: postgresql://postgres:postgres@doppler-indexer-database:5432/base-sepolia
+      DB_URL: postgresql://postgres:postgres@doppler-indexer-database:5432/default
       IPFS_URL: https://ipfs.w3s.link/ipfs
     restart: always
     entrypoint: []
